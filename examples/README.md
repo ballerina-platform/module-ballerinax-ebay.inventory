@@ -2,13 +2,13 @@
 
 The `ballerinax/ebay.inventory` connector provides practical examples illustrating usage in various scenarios.
 
-[//]: # (TODO: Add examples)
-1. 
-2. 
+1. [Listing publish workflow](./listing_publish_workflow/listing_publish_workflow.md) - Create an inventory item, draft an offer, preview the listing fees and optionally publish the offer.
+2. [Stock offer audit](./stock_offer_audit/stock_offer_audit.md) - Page through all inventory items and report the SKUs that have no published offer.
 
 ## Prerequisites
 
-[//]: # (TODO: Add prerequisites)
+- Ballerina Swan Lake 2201.12.0 or later
+- An eBay OAuth user access token with the `sell.inventory` scope (`sell.inventory.readonly` is enough for read-only examples)
 
 ## Running an example
 
